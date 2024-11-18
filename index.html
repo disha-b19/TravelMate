@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelMate</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="images/p-2.jpg">
+
+    <!-- font awesome cdn link  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- wow js -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- owl crouse css file  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fakeLoader.min.css">
+    <!-- scroling aos.css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="wow fadeInDown" data-wow-duration="4s" >
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><img src="images/logo.gif" alt="logo"></a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packages">Place To Visit</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember Me</label>
+        <p>Forget password? <a href="#">Click Here</a></p>
+        <p>Don't have and account? <a href="#">Register Now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home"  id="home">
+
+    <div class="content wow fadeInUp"data-wow-duration="4s">
+        <h3>Bright your future with <span>travels</span></h3>
+        <p>Discover new places with us, Adventure Awaits</p>
+        <a href="#" class="btn">Discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book wow fadeInUp" data-wow-duration="4s" id="book" >
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image " data-aos="fade-right"
+        data-aos="fade-right"
+        data-aos-offset="10"
+        data-aos-duration="500">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="" data-aos="fade-up"data-aos-offset="40"
+        data-aos-offset="10"
+        data-aos-duration="600">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="Destination">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="Number of Travel Buddies">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn btn-submit" value="Book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading wow fadeIn">
+        <span>P</span>
+        <span>l</span>
+        <span>a</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+        <span class="space"></span>
+        <span>T</span>
+        <span>o</span>
+        <span class="space"></span>
+        <span>V</span>
+        <span>i</span>
+        <span>s</span>
+        <span>i</span>
+        <span>t</span>
+    </h1>
+
+    <div class="box-container owl-carousel first_carousel">
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <a href="images/Mumbai.jpeg" data-lightbox="image-1" data-title="Mumbai"><img src="images/Mumbai.jpeg" alt="image"></a>
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Taj Hotel, Mumbai </h3>
+            <p>The Taj Hotel, near the Gateway of India, is a symbol of luxury and heritage. This iconic landmark blends traditional Indian architecture with modern amenities, showcasing Mumbai's vibrant culture.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> ₹6500.00 <span>₹9000.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <a href="images/Goa.jpg" data-lightbox="image-1" data-title="Goa"><img src="images/Goa.jpg" alt="image"></a>
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Beaches, Goa </h3>
+            <p>Goa offers sun-kissed beaches, turquoise waters, and vibrant nightlife. Popular spots like Baga, Calangute, and Anjuna make it perfect for leisure and adventure.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> ₹5500.00 <span>₹8000.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <a href="images/Jaipur.jpeg" data-lightbox="image-3" data-title="Jaipur"><img src="images/Jaipur.jpeg" alt="image"></a>
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Hawa Mahal, Jaipur </h3>
+            <p>The "Palace of Winds" is a stunning example of Rajput architecture. Built in 1799, Hawa Mahal's intricate latticework and windows reflect Jaipur's royal heritage.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> ₹8000.00 <span>₹11000.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <a href="images/Kolkata.jpeg" data-lightbox="image-4" data-title="Kolkata"><img src="images/Kolkata.jpeg" alt="image"></a>
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i>Victoria Memorial, Kolkata </h3>
+            <p>This white marble masterpiece combines Indo-Saracenic and Mughal architecture. Surrounded by lush gardens, it houses a museum showcasing India's colonial history.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> ₹4000.00 <span>₹6500.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="box-container secound_carousel owl-carousel ">
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <a href="images/Bangalore.jpeg" data-lightbox="image-1" data-title="Bangalore"><img src="images/Bangalore.jpeg" alt="image"></a>
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> Bangalore </h3>
+            <p>Known as the "Silicon Valley of India," Bangalore combines lush gardens, a vibrant culture, and technological innovation, making it a top destination.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> ₹7000.00 <span>₹10000.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <a href="images/New Delhi.jpeg" data-lightbox="image-3" data-title="New Delhi"><img src="images/New Delhi.jpeg" alt="image"></a>
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> New Delhi </h3>
+            <p>Explore India's capital with landmarks like the Red Fort, India Gate, and Qutub Minar. A blend of tradition and modernity awaits in New Delhi.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> ₹13000.00 <span>₹15000.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <a href="images/Kerela.jpeg" data-lightbox="image-4" data-title="Kerala"><img src="images/Kerela.jpeg" alt="image"></a>
+        <div class="content">
+            <h3> <i class="fas fa-map-marker-alt"></i> Kerala </h3>
+            <p>Experience the tranquility of Kerala's backwaters, beaches, and hill stations. A tropical paradise perfect for rejuvenation and relaxation.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price"> ₹5000.00 <span>₹9000.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+</div>
+
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading wow fadeIn">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+    <!-- <div class="box wow fadeInUp" data-wow-duration="2s">
+    <i class="fa-solid fa-cloud-bolt fa-sm" style="color: #f8a10d;"></i>
+        <h3>Realtime Weather Update</h3>
+        <p>We provide a wide range of affordable accommodations across India, including budget-friendly hotels and comfortable resorts. Enjoy quality stays at prices that won't break your budget.</p>
+    </div> -->
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <i class="fas fa-utensils"></i>
+        <h3>Food</h3>
+        <p>Experience the diverse flavors of India! From local street food to fine dining, explore traditional cuisines and international delicacies to satisfy your taste buds at every destination.</p>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Safety Guide</h3>
+        <p>Your safety is paramount. Our comprehensive safety guides include essential travel tips, emergency contacts, and cultural insights to ensure a secure and stress-free trip.</p>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <i class="fas fa-globe-asia"></i>
+        <h3>Popular Tourist Destinations</h3>
+        <p>Discover India's top tourist attractions, from the serene backwaters of Kerala to the bustling streets of Delhi. Explore iconic landmarks, natural wonders, and cultural hotspots with ease.</p>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <i class="fas fa-plane"></i>
+        <h3>Fastest Travel/ Ticket Availability</h3>
+        <p>We ensure quick and hassle-free ticket bookings for flights, trains, and buses. Travel to your favorite destinations without delays and make the most of your time exploring.</p>
+    </div>
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <i class="fas fa-hiking"></i>
+        <h3>Ratings and Reviews</h3>
+        <p>Make informed choices with verified ratings and reviews for hotels, restaurants, and attractions. Get insights from fellow travelers to enhance your journey.</p>
+    </div>
+
+</div>
+
+
+</section>
+
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading wow fadeIn">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+<div class="box-container">
+
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-1.jpeg" alt="">
+        <div class="content">
+            <h3>Taj Mahal</h3>
+            <p>The Taj Mahal in Agra, is a symbol of eternal love. Built by Emperor Shah Jahan, this white marble mausoleum is a UNESCO World Heritage Site.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-2.jpeg" alt="">
+        <div class="content">
+            <h3>Gateway of India</h3>
+            <p>Located in Mumbai, the Gateway of India is a historic arch-monument overlooking the Arabian Sea, symbolizing the city's colonial past.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-3.jpg" alt="">
+        <div class="content">
+            <h3>Golden Temple</h3>
+            <p>The Golden Temple, in Amritsar, is a Sikh spiritual center known for its golden dome and serene surroundings.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-4.jpeg" alt="">
+        <div class="content">
+            <h3>Kashmir Valley</h3>
+            <p>The Kashmir Valley is famed for its stunning natural beauty and lush green landscapes earning it the title "Paradise on Earth."</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-5.jpeg" alt="">
+        <div class="content">
+            <h3>Statue of Unity</h3>
+            <p>The Statue of Unity in Gujarat is the tallest statue in the world, built in honor of Sardar Vallabhbhai Patel.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-6.jpeg" alt="">
+        <div class="content">
+            <h3>Red Fort, Delhi</h3>
+            <p>The Red Fort in Delhi, a UNESCO World Heritage Site, was built by Mughal Emperor Shah Jahan. It served as the residence of Mughal emperors.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-7.jpeg" alt="">
+        <div class="content">
+            <h3>Lotus Temple, Delhi</h3>
+            <p>The Lotus Temple in Delhi is a Bahá'í House of Worship known for its flower-like design. Open to all faiths, it offers a serene space for meditation.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-8.jpeg" alt="">
+        <div class="content">
+            <h3>Ghats of Varanasi</h3>
+            <p>The ghats of Varanasi, Uttar Pradesh, are a spiritual hub along the Ganges River, renowned for rituals, Ganga Aarti, and vibrant cultural activities.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+    <div class="box wow fadeInUp" data-wow-duration="2s">
+        <img src="images/India-9.jpeg" alt="">
+        <div class="content">
+            <h3>City of Lakes, Udaipur</h3>
+            <p>Udaipur, Rajasthan, also called the "City of Lakes," is famous for its serene lakes, royal palaces, and historical forts, making it a popular destination.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>T</span>
+        <span>E</span>
+        <span>A</span>
+        <span>M</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/Anurag.jpeg" alt="">
+                    <h3>Anurag Mishra</h3>
+                    <p>Aspiring Software Developer from Dr. APJ Abdul Kalam Technical University, AKTU. Skilled in backend and full-stack development with a strong foundation in Data Structures and Algorithms. Gained hands-on experience as a Front-End Engineer Intern at IBM Skillsbuild. Currently exploring JavaScript frameworks and advanced algorithms to drive innovation. Let’s connect!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/Prallav.jpeg" alt="">
+                    <h3>Prallav Aggarwal</h3>
+                    <p>Aspiring Software Developer from Dr. APJ Abdul Kalam Technical University, AKTU. Skilled in backend and full-stack development with a strong foundation in Data Structures and Algorithms. Gained hands-on experience as a Front-End Engineer Intern at IBM Skillsbuild. Currently exploring JavaScript frameworks and advanced algorithms to drive innovation. Let’s connect!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/Disha.jpeg" alt="">
+                    <h3>Disha Tomar</h3>
+                    <p>Aspiring Software Developer from Dr. APJ Abdul Kalam Technical University, AKTU. Skilled in backend and full-stack development with a strong foundation in Data Structures and Algorithms. Gained hands-on experience as a Front-End Engineer Intern at IBM Skillsbuild. Currently exploring JavaScript frameworks and advanced algorithms to drive innovation. Let’s connect!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/Ayush.jpeg" alt="">
+                    <h3>Ayush Vind</h3>
+                    <p>Aspiring Software Developer from Dr. APJ Abdul Kalam Technical University, AKTU. Skilled in backend and full-stack development with a strong foundation in Data Structures and Algorithms. Gained hands-on experience as a Front-End Engineer Intern at IBM Skillsbuild. Currently exploring JavaScript frameworks and advanced algorithms to drive innovation. Let’s connect!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn btn-submit" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<!-- <section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section> -->
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Welcome to TravelMate—your trusted companion for unforgettable journeys! We are passionate about making travel accessible, exciting, and hassle-free for everyone. From affordable accommodations to curated safety guides, delectable food recommendations, and top-rated destinations, we ensure every moment of your adventure is extraordinary.</p>
+        </div>
+        <!-- <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div> -->
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> TravelMate</span> | all rights reserved! </h1>
+
+</section>
+<!-- top to bottom scrolling  -->
+<div id="totopscroller"></div>
+<!-- preloader  -->
+<div class="fakeLoader"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jaquery cdn  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- swiper-bundle.min.js -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- lightbox.js -->
+<script src="js/lightbox.js"></script>
+<!-- owl.carousel.min.js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- top to bottom  -->
+<script src="js/jquery.totop.js"></script>
+<script src="js/fakeLoader.min.js"></script>
+<!-- scroling aos js  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script>
+    // owl carousel
+    $('.first_carousel').owlCarousel({
+    autoplay:true,
+    margin:10,
+    smartSpeed: 1000,
+    nav:true,
+    responsiveClass:true,
+
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+           
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:true,
+          
+        }
+    }
+})
+
+// secound carousel 
+ // owl carousel
+ $('.secound_carousel').owlCarousel({
+    autoplay:true,
+    rtl:true,
+    nav:true,
+    margin:10,
+    responsiveClass:true,
+    smartSpeed: 1000,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+           
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:true,
+          
+        }
+    }
+})
+
+// top ot bottom 
+$(function(){
+$('#totopscroller').totopscroller({
+link:'http://127.0.0.1:5500/index.html#' // show a link button
+});
+})
+
+// wow js 
+new WOW().init();
+
+// preloader
+$.fakeLoader();
+
+// aos scrolling  
+AOS.init();
+  //  water Remote Playback
+    $('.water').ripples({
+
+      // Image Url
+      imageUrl: null,
+
+      // The width and height of the WebGL texture to render to. 
+      // The larger this value, the smoother the rendering and the slower the ripples will propagate.
+      resolution: 256,
+
+      // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
+      dropRadius: 20,
+
+      // Basically the amount of refraction caused by a ripple. 
+      // 0 means there is no refraction.
+      perturbance: 0.04,
+
+      // Whether mouse clicks and mouse movement triggers the effect.
+      interactive: true,
+
+      // The crossOrigin attribute to use for the affected image. 
+      crossOrigin: ''
+    });
+   
+</script>
+
+</body>
+</html>
