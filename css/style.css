@@ -159,6 +159,13 @@ header .logo{
   text-transform: uppercase;
 }
 
+header .logo img{
+  width: 300px; 
+  height: 50px; 
+  object-fit: none; 
+  object-position:50% 49%; 
+}
+
 header .logo span{
   color:var(--orange);
 }
@@ -387,18 +394,71 @@ header .search-bar-container label:hover{
 
 .book .row{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
   gap:1.5rem;
   align-items: center;
+  justify-content: center;
 }
 
 .book .row .image{
-  flex:1 1 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 50%;
+  justify-content: space-evenly;
+  /* flex:1 1 40rem; */
+}
+.card{
+  width: 27%;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  /* align-items: center; */
+  /* box-shadow: 0 0 20px #333; */
+}
+.card img{
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  box-shadow: 0 0 20px #333;
+  object-fit: cover;
+}
+.card:hover{
+  transform: scale(1.03);
+  transition: 1s;
+  filter: drop-shadow(0 0 10px #333);
+  cursor: pointer;
+}
+.card:hover img{
+  filter: grayscale(0%);
+}
+.card figcaption{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px;
+  width: 100%;
+  height: 20%;
+  font-family: Cantarell;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+  border-radius: 0 0 10px 10px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+  transition: 0.3s;
+}
+.card:hover figcaption{
+  opacity: 1;
+  transform: scale(1.03);
+  /* cursor: pointer; */
 }
 
-.book .row .image img{
+/* .book .row .image img{
   width:100%;
-}
+} */
 
 .book .row form{
   flex:1 1 40rem;
@@ -442,9 +502,9 @@ header .search-bar-container label:hover{
   margin-bottom: 10px;
 }
 
-.box {}
+/* .box {}
 
-.box {}
+.box {} */
 
 .packages .box-container .box img{
   height: 25rem;
